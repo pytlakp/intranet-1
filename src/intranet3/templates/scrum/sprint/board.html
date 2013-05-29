@@ -136,7 +136,7 @@
         $go_normalscreen_btn.click(function() {
             go_fullscreen(!is_fullscreen());
         });
-        IH.inloop(5*60*1000, function(){
+        IH.inloop(60*1000, function(){
             if(is_fullscreen()){
                 window.location.reload()
             }
